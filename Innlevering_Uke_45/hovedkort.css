@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+}
+
+#HK {
+    width: 80%;
+    height: 100px;
+
+    border: 1px solid #000;
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    grid-template-areas: "ov ov ov ov ov" "ov ov ov ov ov";
+
+    border-radius: 20px;
+
+    margin: 30px auto;
+
+    background-image: url("./bilder_hovedkort/circut_board.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#HK > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overskrift {
+    grid-area: ov;
+    font-size: 80px;
+    color: white;
+    text-shadow: 0 0 8px rgb(255, 100, 20);
+}
+
+#IHL {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 130, 196);
+}
+
+#Innledning {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;                  
+    margin: 50px auto;          
+    padding: 10px;
+}
+
+#IT {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 400px;
+}
+
+#IB img {
+    border-radius: 50%;
+    width: 450px;
+}
+
+#Funksjonalitet {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;                  
+    margin: 50px auto;          
+    padding: 10px;
+}
+  
+#FT {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 400px;
+}
+
+#FB img {
+    border-radius: 10%;
+    width: 450px;
+}
+
+#Pris {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;                  
+    margin: 50px auto;          
+    padding: 10px;
+}
+  
+#PT {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 400px;
+}
+
+#PB img {
+    border-radius: 10%;
+    width: 450px;
+}
+
+#IO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.child {
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+.baby {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.baby2 img {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#tp {
+    display: flex;
+    background-color: rgb(0, 130, 196);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;                  
+    margin: 50px auto;
+    padding: 40px;
+}
+
+#tp > a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-size: 40px;
+    color:rgb(255, 100, 20);
+    text-align: center;
+}
+
+#Lenker > h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
